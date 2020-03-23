@@ -20,5 +20,6 @@ Cliente(s): Davi Amaral, Gabriel Freitas, Ryan Moraes <br>
 	</ul>
 	Necessitamos, portanto, de um banco de dados que atenda à essas entidades. Um protocolo único será entregue ao paciente para a busca dos exames com a data prevista do resultado, e caso o paciente prefira receber o resultado em sua residência ou houver algum compromisso no dia de entrega, o protocolo terá um link que, copiado em um navegador da internet, levará o cliente até uma página de entrada aonde precisa apenas inserir seu login e senha do protocolo, e poderá então clicar na opção de imprimir os exames do paciente.
 <br>
+<br>
 	Caso algo de errado apareça em algum exame, será feito uma busca no banco de dados para resgatar o número de telefone do paciente e a listagem dos exames do dia em que foi feito. Cada paciente tem um número de protocolo único gerado pelo sistema; o funcionário que colheu sangue ou atendeu o paciente irá telefonar para o cliente explicando a situação do exame, e que será feito uma nova coleta de sangue. Caso um paciente perca o protocolo, será necessário ir ao laboratório explicar a situação e mostrar sua identidade ou CPF, para que seja feito uma busca no banco de dados. Quando digitado o CPF ou nome completo, irão aparecer os resultados da busca do exame do paciente, e assim sendo, será impresso e entregue ao cliente.
 </p>
