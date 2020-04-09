@@ -2,7 +2,7 @@
 
 Data: 22/03/2020 <br>
 Empresa: Clínica Análises Ltda. <br>
-Cliente(s): Davi Amaral, Gabriel Freitas, Ryan Moraes <br>
+Cliente(s): Davi Amaral, Ryan Moraes <br>
 
 <p>
 	Caro Sr. Marcello Novaes,
