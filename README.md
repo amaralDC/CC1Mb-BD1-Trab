@@ -23,3 +23,20 @@ Cliente(s): Davi Amaral, Ryan Moraes <br>
 <br>
 	Caso algo de errado apareça em algum exame, será feito uma busca no banco de dados para resgatar o número de telefone do paciente e a listagem dos exames do dia em que foi feito. Cada paciente tem um número de protocolo único gerado pelo sistema; o funcionário que colheu sangue ou atendeu o paciente irá telefonar para o cliente explicando a situação do exame, e que será feito uma nova coleta de sangue. Caso um paciente perca o protocolo, será necessário ir ao laboratório explicar a situação e mostrar sua identidade ou CPF, para que seja feito uma busca no banco de dados. Quando digitado o CPF ou nome completo, irão aparecer os resultados da busca do exame do paciente, e assim sendo, será impresso e entregue ao cliente.
 </p>
+
+# Normalização de Dados
+
+<i>Primeira Forma Normal (1FN):</i> Nenhum atributo deve possuir mais de um valor, e nenhuma tabela pode possuir valores repetidos. Cada valor deve ser único e exclusivo. Sua normalização dá-se por:
+	<ol>
+		<li> Identificar a chave primária e a coluna que possui dados repetidos, e removê-los.
+		<li> Construir uma outra tabela com o atributo em questão, estabelecendo uma relação entre a nova e a anterior.
+	</ol>
+<i>Segunda Forma Normal (2FN):</i> É necessário satisfazer a 1FN para proseguir para a 2FN. Essa forma define que os atributos normais devem depender apenas da chave primária da tabela. Para colunas não dependentes dessa chave, deve-se movê-las para uma nova tabela. Sua normalização dá-se por:
+	<ol>
+		<li> Identificar os dados não dependentes da chave primária, e removê-los.
+		<li> Construir uma outra tabela com os dados em questão.
+	</ol>
+<i>Terceira Forma Normal (3FN):</i> É necessário satisfazer 2FN e, por conseguinte, a 1FN para proseguir para a 3FN. Todos os atributos de uma tabela devem ser simultaneamente independentes uns dos outros, e dependentes exclusivamente da chave primária. Sua normalização dá-se por:
+	<ol>
+		<li> Identificar os dados dependentes de outros, e removê-los.
+	</ol>
